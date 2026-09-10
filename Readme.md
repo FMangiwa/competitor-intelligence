@@ -4,7 +4,7 @@ An automated AI-powered competitive intelligence tool that scrapes company websi
 
 Built with Python, Streamlit, BeautifulSoup, and supports multiple LLM providers (**OpenAI**, **Google Gemini**, and **Ollama**).
 
-\---
+---
 
 ## 📌 Project Architecture
 
@@ -19,7 +19,7 @@ Built with Python, Streamlit, BeautifulSoup, and supports multiple LLM providers
 └── app.py          	# Interactive UI built with Streamlit
 ```
 
-\---
+---
 
 ## 🛠️ Setup \& Installation
 
@@ -69,7 +69,7 @@ If using `uv`:
 uv pip install -r requirements.txt
 ```
 
-\---
+---
 
 ## ⚙️ Environment Configuration
 
@@ -79,7 +79,7 @@ Copy the example environment file:
 cp .env.example .env
 ```
 
-\---
+---
 
 ## 🚀 Running the Application
 
@@ -97,7 +97,7 @@ uv run streamlit run app.py
 
 Open your browser at `http://localhost:8501`.
 
-\---
+---
 
 ## Demo
 
@@ -109,7 +109,7 @@ This project demonstrates an automated company and competitor intelligence workf
 - Generates a consolidated company prospectus
 - Provides an interactive Streamlit interface
 
-\---
+---
 
 ## 💡 Key Features
 
@@ -118,7 +118,7 @@ This project demonstrates an automated company and competitor intelligence workf
 * **Real-Time Token Streaming**: Stream outputs character-by-character for immediate visual feedback.
 * **Robust Exception Handling**: Built-in safeguards against invalid URL schemes (`mailto:`, `tel:`), missing URL attributes, and request timeouts.
 
-\---
+---
 
 ## License
 
