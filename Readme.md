@@ -33,7 +33,8 @@ Built with Python, Streamlit, BeautifulSoup, and supports multiple LLM providers
 Clone this repository and navigate to the project directory:
 
 ```bash
-cd git-project
+git clone https://github.com/FMangiwa/competitor-intelligence.git
+cd competitor-intelligence
 ```
 
 Create and activate a virtual environment:
@@ -72,12 +73,10 @@ uv pip install -r requirements.txt
 
 ## ⚙️ Environment Configuration
 
-Create a `.env` file in the root of your project directory:
+Copy the example environment file:
 
-```env
-OPENAI\_API\_KEY=your\_openai\_api\_key\_here
-GOOGLE\_API\_KEY=your\_gemini\_api\_key\_here
-OLLAMA\_BASE\_URL=http://localhost:11434/v1
+```bash
+cp .env.example .env
 ```
 
 \---
@@ -97,6 +96,18 @@ uv run streamlit run app.py
 ```
 
 Open your browser at `http://localhost:8501`.
+
+\---
+
+## Demo
+
+This project demonstrates an automated company and competitor intelligence workflow:
+
+- Scrapes relevant company web pages
+- Uses LLMs to select useful sub-pages dynamically
+- Extracts and structures company information
+- Generates a consolidated company prospectus
+- Provides an interactive Streamlit interface
 
 \---
 
