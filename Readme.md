@@ -118,3 +118,10 @@ This project demonstrates an automated company and competitor intelligence workf
 * **Real-Time Token Streaming**: Stream outputs character-by-character for immediate visual feedback.
 * **Robust Exception Handling**: Built-in safeguards against invalid URL schemes (`mailto:`, `tel:`), missing URL attributes, and request timeouts.
 
+\---
+
+## License
+
+See `LICENSE`.
+
+````
